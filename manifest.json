@@ -1,0 +1,17 @@
+
+{
+  "manifest_version": 3,
+  "name": "AI Daily Prompt",
+  "version": "1.3",
+  "description": "Daily reminder to use AI, with ideas and links to ChatGPT.",
+  "permissions": ["notifications", "alarms", "tabs", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
